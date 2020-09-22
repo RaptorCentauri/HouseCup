@@ -1,0 +1,5 @@
+databases:
+    Testing: {type: mysql, setup: {port: '3306', host: localhost, user: root, password: cants32(myth, database: houseCup}}
+filesystems: {}
+models:
+    Students: {files: false, db: Testing, data: {studentName: {dataType: string, required: yes, encrypted: no}, teamName: {dataType: string, required: yes, encrypted: no}, pointsEarned: {dataType: string, required: no, encrypted: no}}}
