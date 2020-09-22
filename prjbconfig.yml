@@ -22,7 +22,7 @@ models:
     #   db: "Testing"
       db: "Production"
       data:
-        studetnName:
+        studentName:
           dataType: "string"
           required: "yes"
           encrypted: "no"
